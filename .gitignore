@@ -1,0 +1,10 @@
+node_modules*
+dist
+*~
+design
+.publish
+temp*
+question*
+resume.json
+.DS_Store
+static_originAuthor*
