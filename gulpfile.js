@@ -98,8 +98,7 @@ gulp.task('preview', ['build-for-deploy', 'serve']);
 
 /****************** Deploy ****************/
 gulp.task('deploy', ['build-for-deploy'], function() {
-  // TODO 如果没有.gitignore 就创建 .gitignore，并且写入内容。如果需要gulp模块就自行查询
-  return gulp.src('./dist/**/*')
+  return gulp.src(['./dist/**/*', './.gitignore'])
     .pipe(plugins.ghPages());
 });
 
