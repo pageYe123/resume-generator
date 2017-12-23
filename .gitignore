@@ -1,10 +1,10 @@
 node_modules*
 dist
 *~
-design
+
+# created by the gulp-gh-pages
 .publish
-temp*
-question*
+
 resume.json
 .DS_Store
 static_originAuthor*
