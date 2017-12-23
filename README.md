@@ -6,8 +6,8 @@ Written with Gulp, Less, and Jade(Pug).
 
 ## Build
 
-1. Run `npm install` to install the dependencies.
-2. Change the name of `resume-sample.json` to `resume.json` and fill your resume data.
+1. Run `npm init` to install the dependencies and init the *resume.json* according to *resume-sample.json*. 
+2. Fill your own info to resume.json.
 3. Run `npm run build` to generate the static web page(`dist/index.html`).
 4. Run `npm run server` and visit `http://localhost:8000` if you want to see it hosted locally(make sure the port 8000 is not taken).
 

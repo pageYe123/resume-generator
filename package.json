@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "cp resume-sample.json resume.json && npm install",
     "build": "gulp build",
     "server": "gulp server",
     "deploy": "gulp deploy",
