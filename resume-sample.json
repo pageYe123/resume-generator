@@ -4,14 +4,13 @@
   "resume_title": "姓名 - 个人简历",
   "name": "姓名",
   "job_description": ["前端工程师"],
+  "avatar": "static/avatar.jpg",
   "contact": {
-    "phone":{
-      "id":"phone number"
+    "phone":{ "id":"phone number"
     },
     "email": "email address",
     "wechat": {
-      "id": "wechat id",
-      "qrcode": "static/avatar.jpg"
+      "id": "wechat id"
     },
     "stackoverflow": {
       "id": "PageYe",
