@@ -20,7 +20,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-gh-pages": "https://github.com/tekd/gulp-gh-pages.git",
+    "gulp-gh-pages": "https://github.com/pageYe123/gulp-gh-pages.git",
     "gulp-jade": "^1.0.0",
     "gulp-less": "^3.0.0",
     "gulp-live-server": "0.0.23",
