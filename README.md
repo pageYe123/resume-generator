@@ -6,7 +6,7 @@ GitHub Pages support included.
 
 ## Build
 
-1. Run `npm init` to install the dependencies and init the *resume.json* according to *resume-sample.json*. 
+1. Run `npm init` to install the dependencies and init the `resume.json` according to `resume-sample.json`. 
 2. Fill your own info to resume.json.
 3. Run `npm run build` to generate the static web page(`dist/index.html`).
 4. Run `npm run server` and visit `http://localhost:8000` if you want to see it hosted locally(make sure the port 8000 is not taken).
@@ -22,6 +22,17 @@ GitHub Pages support included.
 1. Make sure port 35729(for livereload) and 8000(for the local server) are available.
 2. Run `npm run gulp`, then visit `http://localhost:8000`.
 3. Start development!
+
+## Advanced Usages
+### Special Syntax In `resume.json`
+* markdown link syntax: `[content](specific_url)`
+* markdown strong syntax: `*{strong_content}*` or `\`{strong_content}\``
+
+### CLI Augments
+* `npm run deploy -m "commit message"`: edit customized commit message to CLI.
+
+## Todo
+1. auto pdf generated mechanism
 
 ## LICENSE
 
