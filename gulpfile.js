@@ -1,10 +1,13 @@
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
 
+var minimist = require('minimist');
 var path = require('path');
 var gls = require('gulp-live-server');
 
 var server = gls.static('dist', 8000);
+
+var options = minimist(process.argv.slice(2));
 
 /**************** Utility **********************/
 function highlight(str) {
@@ -104,9 +107,11 @@ gulp.task('server', ['build', 'serve']);
 gulp.task('preview', ['build-for-deploy', 'serve']);
 
 /****************** Deploy ****************/
-gulp.task('deploy', ['build-for-deploy'], function() {
+gulp.task('deploy', ['build-for-deploy'], function () {
   return gulp.src(['./dist/**/*', './.gitignore'])
-    .pipe(plugins.ghPages());
+    .pipe(plugins.ghPages({
+      message: options.m
+    }));
 });
 
 /****************** Default ****************/
