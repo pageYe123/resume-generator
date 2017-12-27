@@ -12,6 +12,12 @@ function highlight(str) {
     .replace(/`(.+?)`/g, '<strong>$1</strong>');
 }
 
+function transform2link(str) {
+  return str.replace(/\[(.+?)\]\((.+?)\)/g, function(str, p1, p2, offset, allStr){
+    return `<a href="${p2}">${p1}</a>`;
+  })
+}
+
 /******************* Jade to html ***********/
 function getLocals() {
   var resumeData = require('./resume.json');
@@ -28,6 +34,7 @@ function getLocals() {
   }
 
   locals.highlight = highlight;
+  locals.transform2link = transform2link;
 
   return locals;
 }

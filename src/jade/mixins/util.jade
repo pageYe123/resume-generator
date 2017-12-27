@@ -84,7 +84,7 @@ mixin skills_miscellaneous(item)
     ul.skills-description.skills-miscellaneous.timeline-content
       each desc in item.item
         li.skills-item-description
-          span!= highlight(desc)
+          span!= transform2link(highlight(desc))
 
 
 mixin experience_title_job(item)
