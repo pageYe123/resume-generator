@@ -38,13 +38,6 @@
     "start": "2011",
     "end": "2015",
     "honor": []
-  }, {
-    "type":"train",
-    "name": "饥人谷online课程",
-    "major": "Web前端培训",
-    "start": "2015.03",
-    "end": "2015.08",
-    "honor": []
   }],
   "language": [{
     "type": "english",
@@ -54,21 +47,21 @@
       "score": "542"
     }],
     "description": [
-      "能流畅阅读英文原版MDN、英文博客及其他资料",
-      "能够在github、Stack Overflow 等技术社区无障碍交流"
+      "能流畅阅读英文原版 MDN，能在 github、Stack Overflow 等技术社区无障碍交流",
+	    "具备较强的英文口语交流能力"
     ]
   }],
   "experience": [{
     "type": "job",
     "techtype": "frontend",
-    "place": "北京市中宏立达科技发展有限公司 用户体验部",
-    "start": "2015.08",
-    "end": "至今",
+    "place": "北京市中宏立达科技发展有限公司——用户体验部",
+    "start": "2015.08.17",
+    "end": "2017.07.19",
     "name": "前端开发",
     "description": [
-      "日常工作：公用UI组件维护，公司内部底层前端框架维护及扩展，前端代码书写规范及标签使用说明文档制作",
-      "安装部署平台和集群部署系统，前端页面搭建及前后端业务集成。",
-      "基于socket.io的视频会议项目。负责会议大厅的前后端逻辑，实现不同房间的远程视频功能"
+      "日常工作：负责基础 UI 组件维护，标签使用说明文档书写，底层内部框架维护",
+      "安装部署平台和集群部署系统：负责前端页面搭建及前后端业务集成，大大提升实施人员部署效率",
+	    "联合作战指挥网站：负责地图情报监测模块的前端开发 / 提供网站皮肤切换解决方案。绝密级项目，提升了公司的影响力"
     ]
   }, {
     "type": "project",
@@ -78,20 +71,30 @@
     "experience":"http://www.jianshu.com/p/cb472c7706c3",
     "demo": "http://hungerworks.com/",
     "description": [
-      "负责作品上传相关部分的 nodejs 后端集成。难点在于图片需上传七牛云服务，和对方技术支持接洽多次",
-      "熟悉nodejs基础知识，express 基本用法，mongodb 简单的命令以及对照 API 文档进行数据库的操作"
+      "负责作品上传业务的 nodejs 后端开发。业务难点在于图片上传七牛云服务，细节方面和七牛技术支持接洽多次",
+      "后端技术涉及：nodejs，express，mongodb"
     ]
   }, {
     "type": "project",
     "techtype": "frontend",
     "project_type": "personal",
-    "name": "pm2.5 数据可视化项目（仅限chrome）",
+    "name": "pm 2.5 数据可视化项目（仅限 chrome）",
     "source": "https://github.com/pageye123/pageye123.github.io/tree/master/PM2.5",
     "demo": "http://pageye123.github.io/PM2.5/index.html",
     "description": [
-      "由小组成员合作完成，分工为设计、数据抓取与挖掘、视频制作。自己在队伍中负责页面展示",
-      "利用 python 抓取官网网站的可靠数据",
-      "前端展现基于 jquery、d3.js、three.js"
+      "和大学同学合作完成，分工为前端、设计、数据处理、视频制作，原本是为了参与某数据新闻比赛。",
+      "前端实现基于 jquery.js、d3.js、three.js，所使用的数据来源于 python 清洗之后的 NASA 官网提供的数据"
+    ]
+  },{
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "简历生成器 Resume Generator",
+    "source": "https://github.com/pageYe123/resume-generator",
+    "demo": "https://pageye123.github.io/resume-generator/",
+    "description": [
+      "启发于 Joyee Cheung 的一个项目，将 JSON 数据转化为一个静态页网站，并发布到 Github Pages",
+      "前端实现基于 gulp.js, Less.js, Jade"
     ]
   }],
   "skills": [{
@@ -105,16 +108,15 @@
     }, {
       "summary": "ECMAScript",
       "description": [
-        "熟悉 `ECMAScript` API规范"
+        "熟悉 `ECMAScript 2015` 规范"
       ]
     }, {
       "summary": "DOM / BOM",
       "description": [
         "熟悉原生 `DOM` 与 `BOM` 的使用及相关标准（W3C）",
-        "对 `Web Workers` / `WebSocket` / 等 API 有一定的使用经验",
-        "对正则表达式有过扎实学习，并能在项目中熟练手写正则表达式进行表单验证",
-        "熟悉 `SVG` 各种标签元素及其属性，并在项目中进行过应用",
-        "能对照 api 利用 js 库对 canvas 进行操作，如 echarts"
+        "对 `Web Workers` / `WebSocket` 等 API 有一定的使用经验",
+        "了解 `SVG` 各种标签元素及其属性，并在项目中进行过应用",
+        "能对照 API 利用 js 库对 canvas 进行操作，如 echarts"
       ]
     }, {
       "summary": "前端工程实践",
@@ -129,7 +131,7 @@
     "item": [{
       "summary": "`Node.js`",
       "description": [
-        "能够使用 `Node.js API` / `Express` /搭建简单的后端程序"
+        "能够使用 `Node.js API` / `Express` 搭建简单的后端程序"
       ]
     }, {
       "summary": "其他",
@@ -141,9 +143,9 @@
     "type": "miscellaneous",
     "item": [
       "具备 `Linux` 使用经验，熟悉常用命令与配置",
-      "具备基本的 `Web 安全`知识（ `XSS` / `CSRF` 等）",
       "能够使用 `Markdown` 编写得体的中英文文档，乐于分享，自认为具备优质的技术文档编写和技术沟通能力",
-      "熟悉 `Photoshop`的基本功能，可以熟练切图"
+      "熟悉 `Photoshop` 的基本功能，可以熟练切图",
+      "曾在 [EConf](https://www.zhihu.com/question/67670098) 线下前端分享会演讲"
     ]
   }]
 }
