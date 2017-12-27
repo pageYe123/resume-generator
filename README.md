@@ -1,8 +1,8 @@
 ## My Resume
 
-Read resume data from a JSON file and generate a static web page. GitHub Pages support included.
+Inspired by Joyee Cheung, read resume data from a JSON file and generate a static web page, written with Gulp, Less, and Jade(Pug). 
 
-Written with Gulp, Less, and Jade(Pug).
+GitHub Pages support included.
 
 ## Build
 
