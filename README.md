@@ -26,7 +26,7 @@ GitHub Pages support included.
 ## Advanced Usages
 ### Special Syntax In `resume.json`
 * markdown link syntax: `[content](specific_url)`
-* markdown strong syntax: `*{strong_content}*` or ``{strong_content}``
+* markdown strong syntax: `*{strong_content}*` or ``` `{strong_content}` ```
 
 ### CLI Augments
 * `npm run deploy -m "commit message"`: edit customized commit message to CLI.
