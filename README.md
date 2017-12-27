@@ -7,7 +7,7 @@ GitHub Pages support included.
 ## Build
 
 1. Run `npm init` to install the dependencies and init the `resume.json` according to `resume-sample.json`. 
-2. Fill your own info to resume.json.
+2. Fill your own info to `resume.json`.
 3. Run `npm run build` to generate the static web page(`dist/index.html`).
 4. Run `npm run server` and visit `http://localhost:8000` if you want to see it hosted locally(make sure the port 8000 is not taken).
 
@@ -29,7 +29,7 @@ GitHub Pages support included.
 * markdown strong syntax: `*{strong_content}*` or ``` `{strong_content}` ```
 
 ### CLI Augments
-* `npm run deploy -m "commit message"`: edit customized commit message to CLI.
+* `npm run deploy -m "commit message"`: edit customized commit message.
 
 ## Todo
 - [ ] auto pdf generated mechanism
