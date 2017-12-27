@@ -5,6 +5,7 @@ dist
 # created by the gulp-gh-pages
 .publish
 
+*.pdf
 resume.json
 .DS_Store
 static_originAuthor*
