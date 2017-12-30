@@ -106,11 +106,11 @@ mixin experience_title_project(item)
   span.experience-project-type= project_type[item.project_type]
   span.experience-title-aside
     if item.source
-      a.experience-project-link(href=item.source)= dict.source_code
+      a.experience-project-link(href=item.source)= experience_project_link.source_code
     if item.experience
-      a.experience-project-link(href=item.experience)= dict.experience
+      a.experience-project-link(href=item.experience)= experience_project_link.experience
     if item.demo
-        a.experience-project-link(href=item.demo)= dict.demo
+        a.experience-project-link(href=item.demo)= experience_project_link.demo
 
 mixin experience_content_project(item)
 

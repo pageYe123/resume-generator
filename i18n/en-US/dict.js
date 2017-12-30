@@ -1,6 +1,7 @@
 module.exports = {
     experience_type: {
-        "internship": "(internship)"
+        "internship": "(internship)",
+        "job": "(work)"
     },
     skill_type: {
         "frontend": "Frontend Development",
@@ -8,7 +9,8 @@ module.exports = {
         "miscellaneous": "Miscellaneous"
     },
     education_type: {
-        "undergraduate": "(Bachelor's degree)"
+        "undergraduate": "(Bachelor's degree)",
+        "train": "(train)"
     },
     link_type: {
         "zhihu": "Zhihu",
@@ -34,5 +36,14 @@ module.exports = {
             "en": "Skills"
         }
     },
-    lt_ie8_comment: "You are using IE8 or lower version of IE, which is not supported."
+    lt_ie8_comment: "You are using IE8 or lower version of IE, which is not supported.",
+    experience_project_link: {
+        source_code: "Source",
+        demo: "Visit",
+        experience :"Summary"
+    },
+    project_type: {
+        "personal": "Personal",
+        "public":"Public"
+    }
 };

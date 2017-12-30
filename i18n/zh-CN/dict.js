@@ -37,7 +37,7 @@ module.exports = {
         }
     },
     lt_ie8_comment: "你正在使用 IE8 或更老的古董浏览器，还是快升级或者换浏览器吧~",
-    dict: {
+    experience_project_link: {
         source_code: "源代码",
         demo: "在线地址",
         experience :"心得体会"
